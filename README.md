@@ -70,7 +70,8 @@ Para compilar y ejecutar este proyecto, necesitarás:
 
 
       
->[!WARNING] Asegúrate de hacer una copia de seguridad de tus datos antes de realizar esta operación.
+>[!WARNING]
+>Asegúrate de hacer una copia de seguridad de tus datos antes de realizar esta operación.
 
 
 
@@ -85,9 +86,11 @@ O, si deseas compilar para producción:
 ```
 
        
->[!NOTE] Puedes ver la aplicación en http://localhost:8000 si utilizas el servidor incorporado de Laravel:
->   ```bash
+>[!NOTE]
+>Puedes ver la aplicación en http://localhost:8000 si utilizas el servidor incorporado de Laravel:
+```sh
        php artisan serve
+```
 
 
 
