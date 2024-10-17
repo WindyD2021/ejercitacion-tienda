@@ -92,7 +92,7 @@ O, si deseas compilar para producción:
        php artisan serve
 ```
 
-[!EXAMPLE]
+>[!EXAMPLE]
 > A continuación se muestra una imagen para previsualizar cómo se ve la tienda web:
 
 ![Previsualización de la tienda](https://github.com/WindyD2021/ejercitacion2/blob/main/Screenshot%202024-10-14%20at%2010-14-06%20Tienda%20Panini%20Argentina.png)
