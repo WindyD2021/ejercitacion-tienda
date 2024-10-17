@@ -1,6 +1,10 @@
 # Tienda de Productos de Manga, Cómic, Libros y Figuritas
 
+>[!NOTE]
+> **Este proyecto está basado en el trabajo de otra persona** y lo estoy utilizando únicamente con fines de **práctica** para mejorar mis habilidades de desarrollo.
+
 ¡Bienvenido a la Tienda de Productos! Este proyecto está desarrollado en **Laravel** y utiliza **Tailwind CSS** para el diseño front-end. Aquí puedes explorar y comprar una amplia variedad de productos relacionados con manga, cómics, libros y figuritas.
+
 
 ## Contenidos
 
@@ -96,5 +100,3 @@ O, si deseas compilar para producción:
 >A continuación se muestra una imagen para previsualizar cómo se ve la tienda web:
 >![Previsualización de la tienda](https://github.com/WindyD2021/ejercitacion2/blob/main/Screenshot%202024-10-14%20at%2010-14-06%20Tienda%20Panini%20Argentina.png)
 
-
-![Texto alternativo](https://github.com/WindyD2021/ejercitacion2/blob/main/Screenshot%202024-10-14%20at%2010-14-06%20Tienda%20Panini%20Argentina.png)
