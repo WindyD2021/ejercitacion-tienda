@@ -20,8 +20,6 @@
 
 - Navegación fácil entre productos.
 - Filtrado y búsqueda de productos por categoría.
-- Gestión de cuentas de usuario.
-- Carrito de compras funcional.
 - Interfaz responsiva gracias a Tailwind CSS.
 
 ## Requisitos
@@ -33,22 +31,16 @@ Para compilar y ejecutar este proyecto, necesitarás:
 - [Node.js](https://nodejs.org/) y [NPM](https://www.npmjs.com/)
 - [Laravel](https://laravel.com/docs)
 
->[!IMPORTANT]
-> Asegúrate de tener todas las extensiones necesarias de PHP habilitadas, como `openssl`, `pdo`, `mbstring`, `tokenizer`, `xml`, y `ctype`.
-
 ## Instalación
 1. Clona el repositorio:
  ```sh
        git clone https://github.com/tu-usuario/nombre-del-repo.git
        cd nombre-del-repo
 ```
-2. Instala las dependencias de PHP:
+2. Instala las dependencias:
  ```sh
-       composer install
-```
-2. Instala las dependencias de Node.js:
-```sh
-       npm install
+     composer install
+     npm install
 ```
 3. Copia el archivo .env.example a .env y configura las variables de entorno según tus necesidades:
 ```sh
@@ -61,21 +53,7 @@ Para compilar y ejecutar este proyecto, necesitarás:
 5. Ejecuta las migraciones de la base de datos:
 ```sh
        php artisan migrate
-```
-       
-       
->[!TIP]
-> Para evitar problemas de permisos en sistemas Unix, puedes necesitar ajustar los permisos de la carpeta de almacenamiento:
->```sh
->chmod -R 775 storage
->```
-
-      
-
-
-      
->[!WARNING]
->Asegúrate de hacer una copia de seguridad de tus datos antes de realizar esta operación.
+```    
 
 
 
