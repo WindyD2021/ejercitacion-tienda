@@ -1,6 +1,7 @@
 >[!NOTE]
 >Aqui tienes una nota
 >
+
 >[!TIP]
 >Ten esto en cuenta
 
