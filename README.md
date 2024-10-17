@@ -1,5 +1,4 @@
->[!NOTE]
-># Tienda de Productos de Manga, Cómic, Libros y Figuritas
+# Tienda de Productos de Manga, Cómic, Libros y Figuritas
 
 ¡Bienvenido a la Tienda de Productos! Este proyecto está desarrollado en **Laravel** y utiliza **Tailwind CSS** para el diseño front-end. Aquí puedes explorar y comprar una amplia variedad de productos relacionados con manga, cómics, libros y figuritas.
 
@@ -39,14 +38,37 @@ Para compilar y ejecutar este proyecto, necesitarás:
    ```bash
    git clone https://github.com/tu-usuario/nombre-del-repo.git
    cd nombre-del-repo
+2. Instala las dependencias de PHP:
+    ```bash
+   composer install
+2. Instala las dependencias de Node.js:
+    ```bash
+   npm install
+3. Copia el archivo .env.example a .env y configura las variables de entorno según tus necesidades:
+    ```bash
+   cp .env.example .env
+4. Genera la clave de la aplicación:
+   ```bash
+   php artisan key:generate
+5. Ejecuta las migraciones de la base de datos:
+   ```bash
+   php artisan migrate
+[!TIP] Para evitar problemas de permisos en sistemas Unix, puedes necesitar ajustar los permisos de la carpeta de almacenamiento:
+> ```bash
+      chmod -R 775 storage
+[!WARNING] Asegúrate de hacer una copia de seguridad de tus datos antes de realizar esta operación.
 
->
+## Compilación
+Para compilar los activos de tu proyecto, ejecuta:
+>   ```bash
+       npm run dev
+O, si deseas compilar para producción:
+>   ```bash
+       npm run build
+[!NOTE] Puedes ver la aplicación en http://localhost:8000 si utilizas el servidor incorporado de Laravel:
+>   ```bash
+       php artisan serve
 
->[!TIP]
->Ten esto en cuenta
->
 
->[!IMPORTANT]
->Ten esto en cuenta
 
 ![Texto alternativo](https://github.com/WindyD2021/ejercitacion2/blob/main/Screenshot%202024-10-14%20at%2010-14-06%20Tienda%20Panini%20Argentina.png)
