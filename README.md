@@ -61,9 +61,12 @@ Para compilar y ejecutar este proyecto, necesitarás:
        
        
 >[!TIP] Para evitar problemas de permisos en sistemas Unix, puedes necesitar ajustar los permisos de la carpeta de almacenamiento:
-```sh
-      chmod -R 775 storage
-```
+>```sh
+>chmod -R 775 storage
+>```
+
+      
+
 
       
 >[!WARNING] Asegúrate de hacer una copia de seguridad de tus datos antes de realizar esta operación.
