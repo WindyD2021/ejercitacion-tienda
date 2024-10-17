@@ -34,8 +34,9 @@ Para compilar y ejecutar este proyecto, necesitarás:
 ## Instalación
 1. Clona el repositorio:
  ```sh
-       git clone https://github.com/tu-usuario/nombre-del-repo.git
-       cd nombre-del-repo
+       git clone https://github.com/tu-usuario/ejercitacion-tienda.git
+       cd ejercitacion-tienda
+
 ```
 2. Instala las dependencias:
  ```sh
