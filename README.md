@@ -34,29 +34,36 @@ Para compilar y ejecutar este proyecto, necesitarás:
 
 ## Instalación
 1. Clona el repositorio:
-> ```bash
+ ```sh
        git clone https://github.com/tu-usuario/nombre-del-repo.git
        cd nombre-del-repo
+```
 2. Instala las dependencias de PHP:
-> ```bash
+ ```sh
        composer install
+```
 2. Instala las dependencias de Node.js:
->   ```bash
+```sh
        npm install
+```
 3. Copia el archivo .env.example a .env y configura las variables de entorno según tus necesidades:
->    ```bash
+```sh
        cp .env.example .env
+```
 4. Genera la clave de la aplicación:
->  ```bash
+```sh
        php artisan key:generate
+```
 5. Ejecuta las migraciones de la base de datos:
->   ```bash
+```sh
        php artisan migrate
+```
        
        
 >[!TIP] Para evitar problemas de permisos en sistemas Unix, puedes necesitar ajustar los permisos de la carpeta de almacenamiento:
-> ```bash
+```sh
       chmod -R 775 storage
+```
 
       
 >[!WARNING] Asegúrate de hacer una copia de seguridad de tus datos antes de realizar esta operación.
@@ -65,11 +72,13 @@ Para compilar y ejecutar este proyecto, necesitarás:
 
 ## Compilación
 Para compilar los activos de tu proyecto, ejecuta:
->   ```bash
+```sh
        npm run dev
+```
 O, si deseas compilar para producción:
->   ```bash
+```sh
        npm run build
+```
 
        
 >[!NOTE] Puedes ver la aplicación en http://localhost:8000 si utilizas el servidor incorporado de Laravel:
