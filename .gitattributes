@@ -1,5 +1,8 @@
-* text=auto eol=lf
+# Normalizar finales de línea
+* text=auto
+* eol=lf
 
+# Diferencias específicas para tipos de archivos
 *.blade.php diff=html
 *.css diff=css
 *.html diff=html

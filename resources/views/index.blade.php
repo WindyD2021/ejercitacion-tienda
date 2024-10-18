@@ -1,12 +1,9 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('title', 'Tienda Panini Argentina')
 
 @section('content')
     <div class="container mx-auto p-4 text-black">
-
-
-
         <div id="gallery" class="relative w-full" data-carousel="slide">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">

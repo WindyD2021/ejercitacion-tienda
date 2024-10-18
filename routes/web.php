@@ -42,6 +42,12 @@ Route::get('zonakids', function(){
     return view('zonakids/index');
 })->name('zonakid.index');
 
+/**
+ * Rutas para el carrito
+ */
+Route::get('/cart', function(){
+    return view('cart/index');
+})->name('cart.index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
